@@ -675,6 +675,7 @@ dependencies = [
 [[package]]
 name = "nativebpm-client"
 version = "1.0.0"
+source = "git+https://gitlab.com/nativebpm/sdk.git?tag=rust%2Fv0.1.28#f03ab0483f3fb3ec174f50aa8a85131ec944e84b"
 dependencies = [
  "chrono",
  "reqwest",

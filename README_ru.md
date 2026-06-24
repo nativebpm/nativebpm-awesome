@@ -11,7 +11,7 @@
 | [`typescript-backend/`](./typescript-backend) | TypeScript (Node/Express) | Управляет BPMN-процессами на бэкенде, отдает динамические формы JSON Schema. |
 | [`frontend-react/`](./frontend-react) | React (Vite / RJSF) | Рендерит динамические формы и содержит **интерактивную визуализацию BPMN-процесса**. |
 | [`frontend-vue/`](./frontend-vue) | Vue 3 (Vite) | Строит реактивные формы по схемам NativeBPM и встраивает интерактивную визуализацию. |
-| [`flutter-mobile-client/`](./flutter-mobile-client) | Dart / Flutter | Мобильный интерфейс для получения, клейма и завершения задач User Task. |
+| [`flutter-mobile-client/`](./flutter-mobile-client) | Dart / Flutter | Мобильный интерфейс для получения, захвата (claim) и завершения задач User Task. |
 | [`go-ecommerce/`](./go-ecommerce) | Go (Gin) | Сервер проверки HMAC-подписей (`X-NativeBPM-Signature`) на вебхуках от движка. |
 | [`python-ai-worker/`](./python-ai-worker) | Python | Воркер, опрашивающий задачи AI-агентов и завершающий их с помощью LLM-анализа. |
 | [`rust-cli/`](./rust-cli) | Rust (Clap / Tokio) | CLI-утилита для локального развертывания и валидации BPMN XML-схем. |

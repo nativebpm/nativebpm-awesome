@@ -1,0 +1,20 @@
+name: flutter_mobile_client
+description: "A real-world Flutter mobile app demonstrating human task lists and completion using NativeBPM Dart SDK."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  nativebpm_client:
+    git:
+      url: https://gitlab.com/nativebpm/sdk.git
+      path: dart
+      ref: dart/v0.1.28
+  http: ^1.2.0
+
+flutter:
+  uses-material-design: true

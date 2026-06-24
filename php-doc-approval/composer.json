@@ -1,0 +1,15 @@
+{
+    "name": "nativebpm-awesome/php-doc-approval",
+    "description": "Real-world PHP document approval workflow example using NativeBPM PHP SDK.",
+    "require": {
+        "nativebpm/client": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../sdk/php"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

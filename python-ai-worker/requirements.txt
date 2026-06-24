@@ -1,0 +1,2 @@
+# NativeBPM Python SDK Client
+nativebpm-client==0.1.28

@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node / TypeScript
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Rust
+target/
+**/*.rs.bk
+
+# Swift
+.build/
+Packages/
+.swiftpm/
+.DS_Store
+
+# Go workspaces (local overrides)
+go.work
+go.work.sum

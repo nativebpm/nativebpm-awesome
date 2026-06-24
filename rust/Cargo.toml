@@ -1,0 +1,9 @@
+[package]
+name = "nativebpm-awesome-rust"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+nativebpm-client = { path = "../../sdk/rust" }
+tokio = { version = "1.46", features = ["full"] }
+serde_json = "1.0"

@@ -1,5 +1,19 @@
-# Vue 3 + TypeScript + Vite
+# Vue 3 Frontend Example
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This single-page application built with Vue 3, Vite, and Bootstrap demonstrates reactive dynamic forms and interactive BPMN process maps.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Features
+- **Custom Schema Renderer**: Dynamically maps JSON Schema types to reactive HTML5 elements.
+- **Visual Process Tracker**: Displays current execution state of BPMN nodes in an iframe.
+- **Simple State Management**: Fully responsive and reactive Vue 3 components.
+
+## Setup
+```bash
+npm install
+```
+
+## Running Development Server
+```bash
+npm run dev
+```
+Make sure the `typescript-backend` is running on port 4000.
